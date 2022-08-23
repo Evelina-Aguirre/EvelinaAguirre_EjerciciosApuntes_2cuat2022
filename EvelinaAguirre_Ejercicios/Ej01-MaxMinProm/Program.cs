@@ -15,6 +15,7 @@ namespace Ej01_MaxMinProm
              En contraposición al concepto de escalar, están los conceptos de array, lista y objeto, 
             que pueden tener almacenado en su estructura más de un valor.​*/
 
+            int numero = 0;
             int acum = 0;
             int max = int.MinValue;
             int min = int.MaxValue;
@@ -29,7 +30,6 @@ namespace Ej01_MaxMinProm
 
                 Console.WriteLine($"Ingrese el {arrayPosiciónNumAIngresar[i]} número :");
                 string numString = Console.ReadLine();
-                int numero = 0;
                 bool resultado = int.TryParse(numString, out numero);
 
                 while (!resultado)

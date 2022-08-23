@@ -23,6 +23,7 @@ namespace Ej03_Primos
 
             bool resultado = false;
             int numero = 0;
+            int cantidadFueDivisible=0;
             bool esPrimo = false;
 
             while(!resultado)
@@ -39,33 +40,31 @@ namespace Ej03_Primos
 
             }
 
-            
 
-            //for (int i = 2; i <= numero; i++)
-            //{
-            //    if (numero % (numero + 1) == 0) //Si es divisible por (sí mismo +1) deja de ser primo
-            //    { 
-            //        esPrimo = false;
-            //        Console.WriteLine($"{numero} no es");
-            //    }
+            for (int j = 1; j <=numero; j++) //Itero desde 1 hasta el numero ingresado inclusive
+            {
 
-            //    if(numero % i ==0)
-            //    {
-            //        esPrimo = false;
-            //        Console.WriteLine($"{i} no es");
-            //    }
-            //    else
-            //    {
-            //        esPrimo = true;
-            //        Console.WriteLine($"{i} es Primo");
-            //    } 
-            //}
 
-            
-           
-            
+                for (int i = 1; i <= j; i++) //Itero desde uno hasta el número que se está evaluando actualmente 
+                {
+                    if (j % i == 0)
+                    {
+                        cantidadFueDivisible += 1; 
+                    }
+                }
 
-            
+                if (cantidadFueDivisible == 2 || j==1) //evaluando desde 1 si fue divisible por este o por él mismo es Primo 
+                {
+                    esPrimo = true;
+                    Console.WriteLine($"{j} Es primo");
+                }
+               
+                cantidadFueDivisible = 0; //reseteo el contador de cuántas veces fue divisible para el prox. loop.
+
+            }
+
+
+
         }
     }
 }
