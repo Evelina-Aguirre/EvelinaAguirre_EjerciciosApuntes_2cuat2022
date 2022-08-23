@@ -100,7 +100,7 @@ namespace Clase01
             /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-            //CONVERCIÓN EXPLÍCITA
+            //CONVERSIÓN EXPLÍCITA
 
 
 
@@ -111,7 +111,7 @@ namespace Clase01
 
 
 
-            //CONVERCIÓN IMPLICITA
+            //CONVERSIÓN IMPLÍCITA
 
 
 
