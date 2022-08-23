@@ -20,12 +20,14 @@ namespace Ej01_MaxMinProm
             int min = int.MaxValue;
             double promedio;
 
-            Console.WriteLine("Debe ingresar cinco números... ");
+            Console.WriteLine("Por favor Ingrese cinco números... \n");
+
+            string [] arrayPosiciónNumAIngresar = { "primer", "segundo", "tercer", "cuarto", "quinto" };
 
             for (int i = 0; i < 5; i++)
             {
 
-                Console.WriteLine("Ingrese un número :");
+                Console.WriteLine($"Ingrese el {arrayPosiciónNumAIngresar[i]} número :");
                 string numString = Console.ReadLine();
                 int numero = 0;
                 bool resultado = int.TryParse(numString, out numero);

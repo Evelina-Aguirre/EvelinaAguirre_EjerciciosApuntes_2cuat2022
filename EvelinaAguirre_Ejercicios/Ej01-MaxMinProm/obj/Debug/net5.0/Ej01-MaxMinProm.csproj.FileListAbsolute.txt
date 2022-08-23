@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\bin\Debug\net5.0\Ej01-MaxMinProm.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\bin\Debug\net5.0\Ej01-MaxMinProm.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\bin\Debug\net5.0\Ej01-MaxMinProm.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\bin\Debug\net5.0\Ej01-MaxMinProm.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\bin\Debug\net5.0\Ej01-MaxMinProm.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\bin\Debug\net5.0\Ej01-MaxMinProm.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\refint\Ej01-MaxMinProm.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\Ej01-MaxMinProm.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej01-MaxMinProm\obj\Debug\net5.0\ref\Ej01-MaxMinProm.dll
