@@ -53,13 +53,13 @@ namespace Ej03_Primos
                     }
                 }
 
-                if (cantidadFueDivisible == 2 || j==1) //evaluando desde 1 si fue divisible por este o por él mismo es Primo 
+                if (cantidadFueDivisible == 2 || j==1) //si fue divisible por 1 o por él mismo es Primo 
                 {
                     esPrimo = true;
                     Console.WriteLine($"{j} Es primo");
                 }
                
-                cantidadFueDivisible = 0; //reseteo el contador de cuántas veces fue divisible para el prox. loop.
+                cantidadFueDivisible = 0; //reseteo el contador de cuántas veces fue divisible para el prox. loop
 
             }
 

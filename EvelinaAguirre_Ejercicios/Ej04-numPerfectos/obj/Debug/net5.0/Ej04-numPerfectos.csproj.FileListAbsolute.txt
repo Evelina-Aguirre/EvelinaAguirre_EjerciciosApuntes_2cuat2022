@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\bin\Debug\net5.0\Ej04-numPerfectos.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\bin\Debug\net5.0\Ej04-numPerfectos.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\bin\Debug\net5.0\Ej04-numPerfectos.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\bin\Debug\net5.0\Ej04-numPerfectos.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\bin\Debug\net5.0\Ej04-numPerfectos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\bin\Debug\net5.0\Ej04-numPerfectos.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\refint\Ej04-numPerfectos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\Ej04-numPerfectos.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\Ej04-numPerfectos\obj\Debug\net5.0\ref\Ej04-numPerfectos.dll

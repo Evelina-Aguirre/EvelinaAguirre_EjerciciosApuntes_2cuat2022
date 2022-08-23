@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\bin\Debug\net5.0\02Ej01-ValidadorDeRango.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\bin\Debug\net5.0\02Ej01-ValidadorDeRango.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\bin\Debug\net5.0\02Ej01-ValidadorDeRango.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\bin\Debug\net5.0\02Ej01-ValidadorDeRango.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\bin\Debug\net5.0\02Ej01-ValidadorDeRango.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\bin\Debug\net5.0\02Ej01-ValidadorDeRango.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\refint\02Ej01-ValidadorDeRango.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\02Ej01-ValidadorDeRango.genruntimeconfig.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02Ej01-ValidadorDeRango\obj\Debug\net5.0\ref\02Ej01-ValidadorDeRango.dll
