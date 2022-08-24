@@ -46,14 +46,24 @@ namespace _02Ej01_ValidadorDeRango
                 string numeroString = Console.ReadLine();
                 bool resultado = int.TryParse(numeroString, out numero);
 
-                while (!resultado || Validador.Validar(numero, -100, 100);
+                while (!resultado)
                 {
                     Console.WriteLine("Debe ingresar un valor numérico");
                     numeroString = Console.ReadLine();
                     resultado = int.TryParse(numeroString, out numero);
-                    estaDentroDeParametros = Validador.Validar(numero, -100, 100);
                 }
 
+
+                estaDentroDeParametros = Validador.Validar(numero, -100, 100);
+
+
+                while (!estaDentroDeParametros)
+                {
+                    Console.WriteLine("Debe ingresar un número entero entre -100 y 100");
+                    numeroString = Console.ReadLine();
+                    resultado = int.TryParse(numeroString, out numero);
+                    estaDentroDeParametros = Validador.Validar(numero, -100, 100);
+                }
 
                 if (numero > max)
                 {

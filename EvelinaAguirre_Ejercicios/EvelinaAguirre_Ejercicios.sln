@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej04-numPerfectos", "Ej04-n
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Ej01-ValidadorDeRango", "02Ej01-ValidadorDeRango\02Ej01-ValidadorDeRango.csproj", "{A038F611-9878-469C-BD51-9AD8ADAB8C53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Ej04 - calculadora", "02Ej04 - calculadora\02Ej04 - calculadora.csproj", "{82EB998F-7AF7-4999-8D14-74AB043BA232}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A038F611-9878-469C-BD51-9AD8ADAB8C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A038F611-9878-469C-BD51-9AD8ADAB8C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A038F611-9878-469C-BD51-9AD8ADAB8C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82EB998F-7AF7-4999-8D14-74AB043BA232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82EB998F-7AF7-4999-8D14-74AB043BA232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82EB998F-7AF7-4999-8D14-74AB043BA232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82EB998F-7AF7-4999-8D14-74AB043BA232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{6344A935-015D-4DF3-BAD7-1F16457111EB} = {435975D1-F6EA-495B-9896-FF22CAE93B66}
 		{C9CD54A5-4B43-494B-95A4-B6F3D8ADA4D1} = {4F39E9B1-4707-46EF-B84C-4E88A9B15608}
 		{A038F611-9878-469C-BD51-9AD8ADAB8C53} = {6344A935-015D-4DF3-BAD7-1F16457111EB}
+		{82EB998F-7AF7-4999-8D14-74AB043BA232} = {6344A935-015D-4DF3-BAD7-1F16457111EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0D88769-E07A-453F-902C-90451B71EA7D}

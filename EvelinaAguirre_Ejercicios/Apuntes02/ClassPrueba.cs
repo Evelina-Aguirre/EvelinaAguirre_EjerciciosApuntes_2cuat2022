@@ -14,9 +14,9 @@ namespace Apuntes02
         //}
 
         //public: se ve desde cualquier parte.
-        //private: se va a ver dentro de la misma clase , es algo interno que lo va a ver la misma clase
-        //Protected: va a sr visible como privado, dentro de la misma clase y dentro de las clases derivada de esta.
-        //Internal: Es solo accesible dentro del mismo proyecto, si hacemos librerías podemos querer encapcular clases que sean para trabajo internal.
+        //private: es algo interno que lo va a ver la misma clase
+        //Protected: va a ser visible como privado, dentro de la misma clase y dentro de las clases derivadas de esta.
+        //Internal: Es solo accesible dentro del mismo proyecto, si hacemos librerías podemos querer encapsular clases que sean para trabajo interno de estas.
         //Si no tenemos nada va a ser ..
 
         //Si es ESTÁTICO no se puede instanciar.. no es común llamar static a la clase si a los métodos 
