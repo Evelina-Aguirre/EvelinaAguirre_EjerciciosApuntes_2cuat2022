@@ -21,27 +21,35 @@ namespace Ej03_Primos
             IMPORTANTE
             Utilizar sentencias de iteración, selectivas y el operador módulo (%).*/
 
-            bool resultado = false;
+            bool resultado;
+            bool salir;
             int numero = 0;
             int cantidadFueDivisible=0;
-            bool esPrimo = false;
+            //bool esPrimo = false;
 
-            while(!resultado)
+            do
             {
-                Console.WriteLine("Ingrese un número:");
+                Console.WriteLine("Ingrese un número o 'S' para salir:");
                 string numeroString = Console.ReadLine();
+                numeroString.ToLower();
+                
+                if(numeroString == "s")
+                {
+                    Environment.Exit(0);
+                }
+
                 resultado = int.TryParse(numeroString, out numero);
-               
+
                 if (numero <= 0 || resultado == false)
                 {
                     resultado = false;
-                    Console.WriteLine("Debe Ingresar un número entero mayor que 0\n");
+                    Console.WriteLine("Debe Ingresar un número entero mayor que 0.\n)");
                 }
 
-            }
+            } while (!resultado);
 
 
-            for (int j = 1; j <=numero; j++) //Itero desde 1 hasta el numero ingresado inclusive
+            for (int j = 2; j <=numero; j++) //Itero desde 2 hasta el numero ingresado inclusive (el uno no se tomá más como primo)
             {
 
 
@@ -55,7 +63,7 @@ namespace Ej03_Primos
 
                 if (cantidadFueDivisible == 2 || j==1) //si fue divisible por 1 o por él mismo es Primo 
                 {
-                    esPrimo = true;
+                    //esPrimo = true;
                     Console.WriteLine($"{j} Es primo");
                 }
                

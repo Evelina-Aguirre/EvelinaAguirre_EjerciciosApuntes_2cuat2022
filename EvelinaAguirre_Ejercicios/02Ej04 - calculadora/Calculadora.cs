@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _02Ej04___calculadora
+﻿namespace _02Ej04___calculadora
 {
     internal class Calculadora
     {
@@ -13,45 +7,49 @@ namespace _02Ej04___calculadora
         Calcular (público): Recibirá tres parámetros, el primer operando, el segundo operando y la operación matemática. 
         El método devolverá el resultado de la operación.*/
 
-        public static float Calcular (int operando1,int operando2, char operacion )
+        /// <summary>
+        /// Realiza una operación aritmética entre dos cifras.
+        /// </summary>
+        /// <param name="operando1"></param>
+        /// <param name="operando2"></param>
+        /// <param name="operacion"></param>
+        /// <returns>Resultado se la operación o -1 en caso de error</returns>
+        public static float Calcular(int operando1, int operando2, char operacion)
         {
-            if(operacion == '+')
+
+            switch (operacion)
             {
-                return operando1 + operando2;
-            }
-            else if (operacion == '-')
-            {
-                return operando1 - operando2;
-            }
-            else if (operacion == '*')
-            {
-                return operando1 * operando2;
-            }
-            else if (operacion == '/')
-            {
-                if(Validar(operando2))
-                {
-                    return operando1 / operando2;
-                }else
-                {
-                    return 0;
-                }
-            }
-            else
-            {
-                return 0;
+                case '+':
+                    return operando1 + operando2;
+
+                case '-':
+                    return operando1 - operando2;
+
+                case '*':
+                    return operando1 * operando2;
+
+                case '/':
+                    if (Validar(operando2))
+                    {
+                        return operando1 + operando2;
+
+                    }
+                    return -1;
+                default:
+                    return -1;
+
             }
 
-            
+
+
         }
 
         /*Validar (privado): Recibirá como parámetro el segundo operando. 
         Este método se debe utilizar sólo cuando la operación elegida sea la DIVISIÓN. 
-        Este método devolverá true si el operando es distinto de cero.
-*/
-        private static bool Validar(int operando2)
+        Este método devolverá true si el operando es distinto de cero.*/
+        private static bool Validar(int num)
         {
-            if(operando2> 0)
+            if (num > 0)
             {
                 return true;
             }

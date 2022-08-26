@@ -13,9 +13,11 @@ namespace _02Ej04___calculadora
 
         Crear una clase llamada Calculadora que posea dos métodos estáticos (de clase):
 
-        Calcular (público): Recibirá tres parámetros, el primer operando, el segundo operando y la operación matemática. El método devolverá el resultado de la operación.
+        Calcular (público): Recibirá tres parámetros, el primer operando,
+            el segundo operando y la operación matemática. El método devolverá el resultado de la operación.
 
-        Validar (privado): Recibirá como parámetro el segundo operando. Este método se debe utilizar sólo cuando la operación elegida sea la DIVISIÓN. Este método devolverá true si el operando es distinto de cero.
+        Validar (privado): Recibirá como parámetro el segundo operando. Este método se debe 
+            utilizar sólo cuando la operación elegida sea la DIVISIÓN. Este método devolverá true si el operando es distinto de cero.
 
         Se le debe pedir al usuario que ingrese dos números y la operación que desea realizar (ingresando el caracter +, -, * o /).
 
@@ -45,11 +47,12 @@ namespace _02Ej04___calculadora
 
             do
             {
-                Console.WriteLine("Ingrese la operación a realizar '+' '-' '*' '/' :");
+                Console.WriteLine("Ingrese la operación a realizar '+' '-' '*' '/':");
                 string operacionString = Console.ReadLine();
                 resultadooperacionSeleccionada = char.TryParse(operacionString, out operacion);
                 if(operacion != '+' && operacion != '-' && operacion != '*' && operacion != '/')
                 {
+                    Console.WriteLine("Para operar debe ingresar un operación aritmética válida (+,-,*,/)");
                     resultadooperacionSeleccionada = false;
                 }
 
@@ -58,9 +61,6 @@ namespace _02Ej04___calculadora
             float resultadoOperacion = Calculadora.Calcular(operando1, operando2, operacion);
 
             Console.WriteLine("El resultado de la operación es : {0}",resultadoOperacion);
-
-
-
 
         }
     }

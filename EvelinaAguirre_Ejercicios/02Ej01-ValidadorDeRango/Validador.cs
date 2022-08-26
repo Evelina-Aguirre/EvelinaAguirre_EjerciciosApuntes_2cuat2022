@@ -11,14 +11,16 @@ namespace _02Ej01_ValidadorDeRango
    
         public static bool Validar(int valor, int min, int max) 
         {
-            if(valor < min || valor > max)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
+            //if(valor < min || valor > max)
+            //{
+            //    return false;
+            //}
+            //else
+            //{
+            //    return true;
+            //}
+
+            return valor <= min || valor >= max;    
 
         }
 

@@ -17,27 +17,26 @@ namespace Ej04_numPerfectos
 
             IMPORTANTE
             Utilizar sentencias de iteración y selectivas.*/
-            int acumuladoNumerosDivisores=0;
+            //int acumuladoNumerosDivisores=0;
 
-            for (int numQueSeEstaEvaluando = 2; numQueSeEstaEvaluando < 50; numQueSeEstaEvaluando++) //itero hasta 500 siendo que el 4to perfecto es 486
-            {
-                for (int j = 2; j <= numQueSeEstaEvaluando; j++) //Itero hasta el número que se está evaluando actualmente para saber si este es un núm perfecto
-                {
-                    if(numQueSeEstaEvaluando % j  ==0) 
-                    {
-                        acumuladoNumerosDivisores += j;
-                    }
-                }
-                if(acumuladoNumerosDivisores == numQueSeEstaEvaluando)
-                {
-                    Console.WriteLine($"{numQueSeEstaEvaluando} Es un número perfecto");
-                }
-                acumuladoNumerosDivisores = 0;
-            }
-
-
+            //for (int numQueSeEstaEvaluando = 2; numQueSeEstaEvaluando < 1000; numQueSeEstaEvaluando++) //itero hasta 1000
+            //{
+            //    for (int j = 2; j <= numQueSeEstaEvaluando; j++) //Itero hasta el número que se está evaluando actualmente para saber si este es un núm perfecto
+            //    {
+            //        if(numQueSeEstaEvaluando % j  ==0) 
+            //        {
+            //            acumuladoNumerosDivisores += j;
+            //        }
+            //    }
+            //    if(acumuladoNumerosDivisores == numQueSeEstaEvaluando)
+            //    {
+            //        Console.WriteLine($"{numQueSeEstaEvaluando} Es un número perfecto");
+            //    }
+            //    acumuladoNumerosDivisores = 0;
+            //}
 
 
+            
         }
     }
 }

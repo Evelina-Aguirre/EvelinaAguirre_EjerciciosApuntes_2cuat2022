@@ -26,7 +26,7 @@ namespace Apuntes02
             // IOFile.WriteAllText...  <-- y así uso el alias. (A* hice el alias en los using de acá arriba)
 
 
-            
+
             // - Métodos empiezan con mayuscula, tienen que ser verbos ... todos los nombres tienen que ser descriptivo
             //-Namespece también con myus no tiene que ser un verbo
 
@@ -35,8 +35,26 @@ namespace Apuntes02
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-            ClassPrueba.LeerEstatico(); // Método de clase no hace falta instanciar para usarlo
-            
+            //ClassPrueba.LeerEstatico(); // Método de clase no hace falta instanciar para usarlo
+
+
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+            //STATIC : Hay uno solo en todo el programa y se comparte 
+            //métodos --> deben ser verbos + capaz si es contar qué cuenta. (Método Pascal.. primera de cada palabra en mayus)
+            //tamaño de anidamiento 20 lineas como mucho
+            //si está anidado separar en más métodos
+
+
+            //LLAMO AL METODO STATICO CREADO EN LA CLASE
+            string texto;
+            texto = ClassPrueba.EscribirNotas();
+            Console.WriteLine(texto);
+
+
+
+
 
 
 

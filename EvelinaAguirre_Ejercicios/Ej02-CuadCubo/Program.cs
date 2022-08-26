@@ -9,7 +9,8 @@ namespace Ej02_CuadCubo
             /*Ejercicio I02 - Error al cubo
             Consigna
             Ingresar un número y mostrar el cuadrado y el cubo del mismo. 
-            Se debe validar que el número sea mayor que cero, caso contrario, mostrar el mensaje: "ERROR. ¡Reingresar número!".
+            Se debe validar que el número sea mayor que cero, caso contrario, 
+            mostrar el mensaje: "ERROR. ¡Reingresar número!".
 
             IMPORTANTE
             Utilizar el método Pow de la clase Math para calcular las potencias.*/
@@ -32,9 +33,7 @@ namespace Ej02_CuadCubo
                     //pudo transformar el string ingresado en un número. 
                     Console.WriteLine("Debe Ingresar un número entero mayor que 0\n");
                 }
-               
-               
-                
+
             }
 
             double cuadrado = Math.Pow(numero,2);
