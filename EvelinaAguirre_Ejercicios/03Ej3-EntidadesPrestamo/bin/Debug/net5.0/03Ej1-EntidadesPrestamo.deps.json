@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "03Ej1-EntidadesPrestamo/1.0.0": {
+        "runtime": {
+          "03Ej1-EntidadesPrestamo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "03Ej1-EntidadesPrestamo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -6,6 +6,8 @@ namespace _02EjPlus_Atributos
     {
         static void Main(string[] args)
         {
+
+
             //Sello.mensaje = "hola mundo";
 
             //Sello.Imprimir();
@@ -31,16 +33,16 @@ namespace _02EjPlus_Atributos
 
             //////////////////////////////////////////////////////////////////////////////////////////////
 
-            Sello.mensaje = "hola mundo";
+            //Sello.mensaje = "hola mundo";
 
 
-            Sello.color = ConsoleColor.Red;
+            //Sello.color = ConsoleColor.Red;
 
 
-            Sello.ImprimirEnColor();
+            //Sello.ImprimirEnColor();
 
 
-            Sello.Imprimir();                                                    //PARTE 3
+            //Sello.Imprimir();                                                    //PARTE 3
 
 
 

@@ -29,7 +29,7 @@ namespace _02EjPlus_Atributos
             Console.ResetColor();
         }
 
-        private static string ArmarFormatoMensaje()
+        private static string ArmarFormatoMensaje() 
         {
           
             for (int i = 0; i < Sello.mensaje.Length +2; i++)

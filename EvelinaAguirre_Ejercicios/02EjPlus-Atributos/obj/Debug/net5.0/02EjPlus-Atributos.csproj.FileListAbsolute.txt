@@ -10,7 +10,7 @@ C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\Ev
 C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\02EjPlus-Atributos.AssemblyInfo.cs
 C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\02EjPlus-Atributos.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\02EjPlus-Atributos.dll
-C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\refint\02EjPlus-Atributos.dll
 C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\02EjPlus-Atributos.pdb
 C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\02EjPlus-Atributos.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\obj\Debug\net5.0\ref\02EjPlus-Atributos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\02EjPlus-Atributos\bin\Debug\net5.0\ref\02EjPlus-Atributos.dll
