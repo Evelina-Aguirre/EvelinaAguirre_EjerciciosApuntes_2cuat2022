@@ -27,7 +27,18 @@ namespace _03Ej2_cuantasPrimaverasTenes
             Instanciar 3 objetos de tipo Persona en el método Main.
             Mostrar quiénes son mayores de edad y quiénes no.*/
 
+            Persona persona1 = new Persona("Maria",new DateTime(1970,04,21),10243725);
+            Persona persona2 = new Persona("Juan", new DateTime(2002,06,14), 40311920);
+            Persona persona3 = new Persona("Crisalida",new DateTime(2018,02,01), 55755425);
 
+            Console.WriteLine(persona1.Mostrar());
+            Console.WriteLine(persona1.EsMayorDeEdad(persona1.FechaDeNacimiento));
+
+            Console.WriteLine(persona2.Mostrar());
+            Console.WriteLine(persona2.EsMayorDeEdad(persona2.FechaDeNacimiento));
+
+            Console.WriteLine(persona3.Mostrar());
+            Console.WriteLine(persona3.EsMayorDeEdad(persona3.FechaDeNacimiento));
 
         }
     }

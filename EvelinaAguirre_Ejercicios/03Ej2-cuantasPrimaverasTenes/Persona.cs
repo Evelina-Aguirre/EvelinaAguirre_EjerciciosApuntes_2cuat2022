@@ -23,10 +23,10 @@ namespace _03Ej2_cuantasPrimaverasTenes
 
             Construir los siguientes métodos para la clase:
 
-            Setter y getter para cada uno de los atributos.
-            CalcularEdad será privado y retornará la edad de la persona calculándola a partir de la fecha de nacimiento.
-            Mostrar retornará una cadena de texto con todos los datos de la persona, incluyendo la edad actual.
-            EsMayorDeEdad si es mayor de edad devuelve el valor “Es mayor de edad", sino devuelve “es menor”.
+            Setter y getter para cada uno de los atributos.x
+            CalcularEdad será privado y retornará la edad de la persona calculándola a partir de la fecha de nacimiento.x
+            Mostrar retornará una cadena de texto con todos los datos de la persona, incluyendo la edad actual.x
+            EsMayorDeEdad si es mayor de edad devuelve el valor “Es mayor de edad", sino devuelve “es menor”.x
             Instanciar 3 objetos de tipo Persona en el método Main.
             Mostrar quiénes son mayores de edad y quiénes no.*/
 
@@ -62,11 +62,35 @@ namespace _03Ej2_cuantasPrimaverasTenes
         
         }
 
+        public string Mostrar()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("*************************");
+            sb.AppendLine($"{this.nombre}");
+            sb.AppendLine($"{CalcularEdad(this.fechaDeNacimiento)}");
+            sb.AppendLine($"{this.dni}");
+            sb.AppendLine("*************************");
+            return sb.ToString();
+        }
+
 
         //En appendline no poner \n -- tampoco hace falta poner {cantidad.ToString()} se puede pero en appendLine no da error
         //en los métodos no meter dos returns
 
+        public string EsMayorDeEdad(DateTime fechaNacimiento)
+        {
+            StringBuilder sb = new StringBuilder();
+            if(CalcularEdad(fechaNacimiento) >= 18)
+            {
+                sb.AppendLine("Es mayor de edad.");
+            }
+            else
+            {
+                sb.AppendLine("Es menor");
+            }
+            return sb.ToString();
 
+        }
 
     }
 }

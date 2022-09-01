@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Ej2-cuantasPrimaverasTene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clase03Apuntes", "clase03Apuntes\clase03Apuntes.csproj", "{EFF925CF-9962-4627-BB5B-1DCDA7C2AF2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03Ej03-ElEjemploUniversal", "03Ej03-ElEjemploUniversal\03Ej03-ElEjemploUniversal.csproj", "{B4F41525-3757-4774-A6AD-B7F78DB04C20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -119,6 +121,10 @@ Global
 		{EFF925CF-9962-4627-BB5B-1DCDA7C2AF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFF925CF-9962-4627-BB5B-1DCDA7C2AF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFF925CF-9962-4627-BB5B-1DCDA7C2AF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F41525-3757-4774-A6AD-B7F78DB04C20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F41525-3757-4774-A6AD-B7F78DB04C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F41525-3757-4774-A6AD-B7F78DB04C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F41525-3757-4774-A6AD-B7F78DB04C20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +149,7 @@ Global
 		{A6838555-9DF8-45D0-ACCE-F9EE629AE89B} = {1F6EB022-885E-4800-B3E0-4630118FA753}
 		{6BBD91E4-E3AC-4D20-A418-B0B855E16C47} = {1F6EB022-885E-4800-B3E0-4630118FA753}
 		{EFF925CF-9962-4627-BB5B-1DCDA7C2AF2A} = {1F6EB022-885E-4800-B3E0-4630118FA753}
+		{B4F41525-3757-4774-A6AD-B7F78DB04C20} = {1F6EB022-885E-4800-B3E0-4630118FA753}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0D88769-E07A-453F-902C-90451B71EA7D}

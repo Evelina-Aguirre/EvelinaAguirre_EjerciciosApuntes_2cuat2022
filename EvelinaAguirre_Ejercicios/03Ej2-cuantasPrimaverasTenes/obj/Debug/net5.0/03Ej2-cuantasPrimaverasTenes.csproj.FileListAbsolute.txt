@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\ref\03Ej2-cuantasPrimaverasTenes.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\bin\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\ref\03Ej2-cuantasPrimaverasTenes.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej2-cuantasPrimaverasTenes\obj\Debug\net5.0\03Ej2-cuantasPrimaverasTenes.genruntimeconfig.cache

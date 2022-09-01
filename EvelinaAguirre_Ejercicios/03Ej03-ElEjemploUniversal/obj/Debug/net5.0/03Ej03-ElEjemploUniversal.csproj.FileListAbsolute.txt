@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\03Ej03-ElEjemploUniversal.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\03Ej03-ElEjemploUniversal.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\03Ej03-ElEjemploUniversal.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\03Ej03-ElEjemploUniversal.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\03Ej03-ElEjemploUniversal.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\ref\03Ej03-ElEjemploUniversal.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\bin\Debug\net5.0\03Ej03-ElEjemploUniversal.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\ref\03Ej03-ElEjemploUniversal.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03Ej03-ElEjemploUniversal\obj\Debug\net5.0\03Ej03-ElEjemploUniversal.genruntimeconfig.cache
