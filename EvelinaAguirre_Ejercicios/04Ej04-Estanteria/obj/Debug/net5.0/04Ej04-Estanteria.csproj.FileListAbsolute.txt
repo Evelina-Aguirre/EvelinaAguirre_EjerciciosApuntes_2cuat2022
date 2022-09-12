@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\04Ej04-Estanteria.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\04Ej04-Estanteria.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\04Ej04-Estanteria.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\04Ej04-Estanteria.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\04Ej04-Estanteria.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\ref\04Ej04-Estanteria.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\bin\Debug\net5.0\04Ej04-Estanteria.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\ref\04Ej04-Estanteria.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej04-Estanteria\obj\Debug\net5.0\04Ej04-Estanteria.genruntimeconfig.cache

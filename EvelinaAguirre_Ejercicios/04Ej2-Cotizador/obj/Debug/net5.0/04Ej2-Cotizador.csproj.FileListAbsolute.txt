@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\04Ej2-Cotizador.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\04Ej2-Cotizador.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\04Ej2-Cotizador.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\04Ej2-Cotizador.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\04Ej2-Cotizador.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\ref\04Ej2-Cotizador.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\bin\Debug\net5.0\04Ej2-Cotizador.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\ref\04Ej2-Cotizador.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej2-Cotizador\obj\Debug\net5.0\04Ej2-Cotizador.genruntimeconfig.cache

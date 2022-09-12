@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\03EJ04-InventoArgentino.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\03EJ04-InventoArgentino.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\03EJ04-InventoArgentino.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\03EJ04-InventoArgentino.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\03EJ04-InventoArgentino.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\ref\03EJ04-InventoArgentino.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\bin\Debug\net5.0\03EJ04-InventoArgentino.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\ref\03EJ04-InventoArgentino.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\03EJ04-InventoArgentino\obj\Debug\net5.0\03EJ04-InventoArgentino.genruntimeconfig.cache

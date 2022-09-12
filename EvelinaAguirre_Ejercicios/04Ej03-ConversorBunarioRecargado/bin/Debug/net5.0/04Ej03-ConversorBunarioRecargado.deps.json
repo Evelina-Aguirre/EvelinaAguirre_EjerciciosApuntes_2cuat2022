@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "04Ej03-ConversorBunarioRecargado/1.0.0": {
+        "runtime": {
+          "04Ej03-ConversorBunarioRecargado.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "04Ej03-ConversorBunarioRecargado/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

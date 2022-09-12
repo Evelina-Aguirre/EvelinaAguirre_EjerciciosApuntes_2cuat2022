@@ -44,7 +44,6 @@ namespace _03Ej03_ElEjemploUniversal
         static Estudiante()
         {
             random = new Random();
-            
         }
 
         public Estudiante(string nombre, string apellido, string legajo)
@@ -80,7 +79,7 @@ namespace _03Ej03_ElEjemploUniversal
             double notaFinal=-1;
             if(this.notaPrimerParcial >=4 && this.notaSegundoParcial >=4)
             {
-                notaFinal = (double)Estudiante.random.Next(6, 11);
+                notaFinal = Estudiante.random.Next(6, 11);
             }
             return notaFinal;
         }

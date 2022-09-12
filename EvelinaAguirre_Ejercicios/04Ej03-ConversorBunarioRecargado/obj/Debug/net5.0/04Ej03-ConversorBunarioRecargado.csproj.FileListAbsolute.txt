@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\04Ej03-ConversorBunarioRecargado.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\04Ej03-ConversorBunarioRecargado.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\04Ej03-ConversorBunarioRecargado.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\04Ej03-ConversorBunarioRecargado.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\04Ej03-ConversorBunarioRecargado.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\ref\04Ej03-ConversorBunarioRecargado.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\bin\Debug\net5.0\04Ej03-ConversorBunarioRecargado.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\ref\04Ej03-ConversorBunarioRecargado.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\04Ej03-ConversorBunarioRecargado\obj\Debug\net5.0\04Ej03-ConversorBunarioRecargado.genruntimeconfig.cache
