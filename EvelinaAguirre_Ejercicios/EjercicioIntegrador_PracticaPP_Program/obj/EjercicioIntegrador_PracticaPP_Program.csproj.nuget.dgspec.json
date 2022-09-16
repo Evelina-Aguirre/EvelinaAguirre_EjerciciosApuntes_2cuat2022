@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP_Program\\EjercicioIntegrador_PracticaPP_Program.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP\\EjercicioIntegrador_PracticaPP.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP\\EjercicioIntegrador_PracticaPP.csproj",
+        "projectName": "EjercicioIntegrador_PracticaPP",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP\\EjercicioIntegrador_PracticaPP.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP_Program\\EjercicioIntegrador_PracticaPP_Program.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP_Program\\EjercicioIntegrador_PracticaPP_Program.csproj",
+        "projectName": "EjercicioIntegrador_PracticaPP_Program",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP_Program\\EjercicioIntegrador_PracticaPP_Program.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP_Program\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP\\EjercicioIntegrador_PracticaPP.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\C#\\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\\EvelinaAguirre_Ejercicios\\EjercicioIntegrador_PracticaPP\\EjercicioIntegrador_PracticaPP.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

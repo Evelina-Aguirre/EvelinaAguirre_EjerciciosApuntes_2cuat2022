@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "06Ej01-NumLocos/1.0.0": {
+        "runtime": {
+          "06Ej01-NumLocos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "06Ej01-NumLocos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

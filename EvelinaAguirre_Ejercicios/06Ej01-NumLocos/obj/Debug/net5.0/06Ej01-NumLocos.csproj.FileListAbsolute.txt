@@ -1,0 +1,16 @@
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\06Ej01-NumLocos.exe
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\06Ej01-NumLocos.deps.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\06Ej01-NumLocos.runtimeconfig.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\06Ej01-NumLocos.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\06Ej01-NumLocos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\ref\06Ej01-NumLocos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\bin\Debug\net5.0\06Ej01-NumLocos.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\ref\06Ej01-NumLocos.dll
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.pdb
+C:\Users\Usuario\Desktop\C#\EvelinaAguirre_Labo2D_EjerciciosApuntes_2cuat2022\EvelinaAguirre_Ejercicios\06Ej01-NumLocos\obj\Debug\net5.0\06Ej01-NumLocos.genruntimeconfig.cache

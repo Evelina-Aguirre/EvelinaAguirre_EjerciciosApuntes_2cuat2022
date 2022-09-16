@@ -66,7 +66,7 @@ namespace _06_Colecciones
 
             miSorted.Add(3,"Hola");
             miSorted.Add(4, "Hello");
-            miSorted.Add(2, "chiao"); //Me lo ordena de menor a mayor o en orden alfabético 
+            miSorted.Add(2, "chiao"); //lo ordena de menor a mayor o en orden alfabético 
 
            
             foreach (var item in miSorted)

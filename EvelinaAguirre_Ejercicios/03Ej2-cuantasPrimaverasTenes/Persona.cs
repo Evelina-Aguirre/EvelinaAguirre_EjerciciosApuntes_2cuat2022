@@ -41,7 +41,7 @@ namespace _03Ej2_cuantasPrimaverasTenes
                 
         }
 
-        //No tiene sentido ponerlos privados y hacer getter y setter públicos.. but el ejercico lo pide
+        
         public string Nombre { get => nombre; set => nombre = value; }
         public DateTime FechaDeNacimiento { get => fechaDeNacimiento; set => fechaDeNacimiento = value; }
         public int Dni { get => dni; set => dni = value; }
