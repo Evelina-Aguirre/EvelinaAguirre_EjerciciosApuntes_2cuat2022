@@ -52,10 +52,12 @@ namespace EjercicioIntegrador_PracticaPP
         public static bool operator ==(CuentaOffShore c1, CuentaOffShore c2)
         {
             bool retorno = false;
-            if(c1 is not null && c2 is not null && c1._numeroDeCuenta == c2._numeroDeCuenta
-                && c1._dueño.GetAlias() == c2._dueño.GetAlias())
+            if (c1 is not null && c2 is not null)
             {
-                retorno = true;
+                if (c1._numeroDeCuenta == c2._numeroDeCuenta && c1._dueño.GetAlias() == c2._dueño.GetAlias())
+                {
+                    retorno = true;
+                }
             }
             return retorno;
             

@@ -38,27 +38,30 @@ namespace EjercicioIntegrador_PracticaPP
         private void CrearAlias()
         {
             Random rnd = new Random();
-            this._aliasParaIncognito = rnd.Next(1000,9999).ToString() + this._tipoCliente.ToString();
+            int numAzar = rnd.Next(1000, 9999);
+            StringBuilder sb = new StringBuilder();
+            sb.Append($"{this._tipoCliente}{numAzar}");
+            this._aliasParaIncognito = sb.ToString();
+                
         }
 
         private string RetornarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            
+
+            sb.AppendLine();
             sb.AppendLine($"Nombre:{this._nombre}");
-            sb.AppendLine($"Alias:{this._aliasParaIncognito}");
-            sb.AppendLine($"Tipo de Cliente:{this._tipoCliente}");
+            sb.AppendLine($"Tipo:{this._tipoCliente}");
+            sb.AppendLine($"Alias:{this.GetAlias()}");
 
             return sb.ToString();
 
-        }
+       }
 
         public static string RetornarDatos(Cliente cliente)
         {
-            string retorno = "";
-            if(cliente is not null)
-            retorno = cliente.RetornarDatos();
-            return retorno;
+            return cliente.RetornarDatos();
+           
         }
 
 

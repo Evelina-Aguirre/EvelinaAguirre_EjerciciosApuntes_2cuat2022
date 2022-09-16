@@ -25,19 +25,21 @@ namespace EjercicioIntegrador_PracticaPP
             _lugar = lugar;
         }
 
+
+
         public static implicit operator ParaisoFiscal(eParaisosFiscales epf)
         {
-            return new ParaisoFiscal(epf);//Tiene que retornar Ejemplo: ParaisoFiscal pf = eParaisosFiscales.Panamá;
+            return new ParaisoFiscal(epf);
         }
 
-        public static bool operator ==(ParaisoFiscal pf,CuentaOffShore cos)
+        public static bool operator ==(ParaisoFiscal pf, CuentaOffShore cos)
         {
             bool retorno = false;
-            if(pf is not null && pf is not null)
+            if (pf is not null && pf is not null)
             {
                 foreach (CuentaOffShore item in pf._listadoCuentas)
                 {
-                    if(cos.Dueño.GetAlias() == item.Dueño.GetAlias())
+                    if (cos == item)
                     {
                         retorno = true;
                     }
@@ -48,24 +50,24 @@ namespace EjercicioIntegrador_PracticaPP
 
         public static bool operator !=(ParaisoFiscal pf, CuentaOffShore cos)
         {
-            return !(pf != cos);
+            return !(pf == cos);
         }
 
         public static ParaisoFiscal operator -(ParaisoFiscal pf, CuentaOffShore cos)
         {
-            bool retorno = false;
             if (pf is not null && pf is not null)
             {
-                foreach (CuentaOffShore item in pf._listadoCuentas)
+                if (pf == cos)
                 {
-                    if (pf == item)
-                    {
-                        pf._listadoCuentas.Remove(item);
-                        ParaisoFiscal.cantidadDeCuentas--;
-                        retorno = true;
-                        Console.WriteLine("Se retiró la cuenta"); //Dice informar de lo acontecido pero no sé si se hace acá adentro
-                    }
+                    pf._listadoCuentas.Remove(cos);
+                    ParaisoFiscal.cantidadDeCuentas--;
+                    Console.WriteLine("Se quitó la cuenta del paraíso...");
                 }
+                else
+                {
+                    Console.WriteLine("La cuenta no existe en el paríso...");
+                }
+
             }
             return pf;
         }
@@ -76,38 +78,50 @@ namespace EjercicioIntegrador_PracticaPP
 
             if (pf is not null && pf is not null)
             {
-                foreach (CuentaOffShore item in pf._listadoCuentas)
+                if (pf != cos)
                 {
-                    if (pf != item)
+                    pf._listadoCuentas.Add(cos);
+                    ParaisoFiscal.cantidadDeCuentas++;
+                    Console.WriteLine("Se agregó la cuenta al paraíso...");
+                }
+                else
+                {
+
+                    foreach (CuentaOffShore item in pf._listadoCuentas)
                     {
-                        pf._listadoCuentas.Add(item);
-                        ParaisoFiscal.cantidadDeCuentas++;
+                        if (pf == item)
+                        {
+                            item.Saldo += cos.Saldo;
+                            Console.WriteLine("Se actualizó el saldo de la cuenta...");
+                        }
+
                         retorno = true;
-                        
-                    }
-                    else if(pf == item)
-                    {
-                        cos.Saldo += item.Saldo;
+
                     }
                 }
+
             }
             return pf;
-        }
 
-       
+        }
 
         public void MostrarParaiso()
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.Append($"Fecha de Inicio: {ParaisoFiscal.fechaInicioActividades}");
-            sb.Append($"Lugar de Radicación:{_lugar}");
-            sb.Append($"Cantidad de Cuentas:{ParaisoFiscal.cantidadDeCuentas}");
+            sb.AppendLine($"Fecha de Inicio: {ParaisoFiscal.fechaInicioActividades}");
+            sb.AppendLine($"Lugar de Radicación:{ _lugar}");
+            sb.AppendLine($"Cantidad de Cuentas:{ParaisoFiscal.cantidadDeCuentas}");
+            sb.AppendLine($"*****************************************");
+
             foreach (CuentaOffShore item in _listadoCuentas)
             {
-                Cliente.RetornarDatos(item.Dueño);
+                sb.AppendLine(Cliente.RetornarDatos(item.Dueño));
+                sb.AppendLine($"Numero de cuentas:{(int)item}");
+                sb.AppendLine($"Saldo{item.Saldo}");
             }
-            //return
+            Console.WriteLine(sb.ToString());
+
         }
 
 
