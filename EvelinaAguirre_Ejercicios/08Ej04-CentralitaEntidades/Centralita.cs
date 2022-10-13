@@ -110,7 +110,26 @@ namespace _08Ej04_CentralitaEntidades
         //ganancia por llamados locales y provinciales y el detalle de las llamadas realizadas.
         public string Mostrar()
         {
+            StringBuilder sb = new StringBuilder();
 
+            sb.AppendLine($"Razón Social: {this.razonSocial}");
+            sb.AppendLine($"Ganancia Total: {this.GananciasPorTotal}");
+            sb.AppendLine($"Ganancia llam. Locales:  {this.GananciasPorLocal}");
+            sb.AppendLine($"Ganancia llam. Provinciales: {this.GananciasPorProvincial}");
+
+            foreach (Llamada item in this.listaDeLlamadas)
+            {
+                if(item is Local)
+                {
+                    ((Local)item).Mostrar();
+                }
+                else
+                {
+                    ((Provincial)item).Mostrar();
+                }
+            }
+
+            return sb.ToString();
         }
 
         public void OrdenarLlamadas()

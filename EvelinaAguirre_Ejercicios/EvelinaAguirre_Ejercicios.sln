@@ -99,7 +99,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase09", "Clase09", "{744B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase10", "Clase10", "{477894F3-24F9-47CA-B468-7A4AD60BAE28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Ej04-CentralitaEntidades", "08Ej04-CentralitaEntidades\08Ej04-CentralitaEntidades.csproj", "{D2471B15-2E45-4409-8EDC-09119A568A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Ej04-CentralitaEntidades", "08Ej04-CentralitaEntidades\08Ej04-CentralitaEntidades.csproj", "{D2471B15-2E45-4409-8EDC-09119A568A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaProgramPrueba", "CentralitaProgramPrueba\CentralitaProgramPrueba.csproj", "{AEBA6CF1-49CB-4A51-828A-3322C3D6D801}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -247,6 +249,10 @@ Global
 		{D2471B15-2E45-4409-8EDC-09119A568A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2471B15-2E45-4409-8EDC-09119A568A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2471B15-2E45-4409-8EDC-09119A568A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBA6CF1-49CB-4A51-828A-3322C3D6D801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBA6CF1-49CB-4A51-828A-3322C3D6D801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBA6CF1-49CB-4A51-828A-3322C3D6D801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBA6CF1-49CB-4A51-828A-3322C3D6D801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,6 +297,7 @@ Global
 		{3D4D20FD-E42E-4160-8136-FA3CDC3A50C0} = {6059C046-50EA-4E1C-86B6-6A8302948767}
 		{7CA2A5A2-287B-40FA-A3E0-D9F61ABFF199} = {0F618856-469E-4327-8226-30CF5294417A}
 		{D2471B15-2E45-4409-8EDC-09119A568A89} = {6059C046-50EA-4E1C-86B6-6A8302948767}
+		{AEBA6CF1-49CB-4A51-828A-3322C3D6D801} = {6059C046-50EA-4E1C-86B6-6A8302948767}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A0D88769-E07A-453F-902C-90451B71EA7D}
