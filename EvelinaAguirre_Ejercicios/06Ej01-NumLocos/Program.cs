@@ -16,32 +16,33 @@ namespace _06Ej01_NumLocos
             Luego mostrar los positivos ordenados en forma decreciente.
             Por último, mostrar los negativos ordenados en forma creciente.*/
 
-            //Random rnd = new Random();
-            //List <int> rndList = new List<int>();
-            //Queue<int> queuePos = new Queue<int>();
-            //SortedList<int, string> miSorted = new SortedList<int, string>();
-            //int[] array;
-            //int max = int.MinValue;
-            //int min = int.MinValue;
-
-            //for (int i = 0; i < 20; i++)
-            //{
-            //    rndList.Add(rnd.Next(-100,100));
-            //    Console.WriteLine($"{rndList[i]}");
-            //    if(rndList[i]<0)
-            //    {
-            //        miSorted.Add(rndList[i],"");
-                    
-            //    }
-
-
-            //}
-
-            //foreach (var item in miSorted)
-            //{
-            //    Console.WriteLine($"{item}");
-            //}
+            Random rnd = new Random();
+            List<int> rndList = new List<int>();
+            Queue<int> queuePos = new Queue<int>();
+            SortedList<int, string> miSorted = new SortedList<int, string>();
            
+            int[] array;
+            int max = int.MinValue;
+            int min = int.MinValue;
+
+            for (int i = 0; i < 20; i++)
+            {
+                rndList.Add(rnd.Next(-100, 100));
+                Console.WriteLine($"{rndList[i]}");
+                if (rndList[i] < 0)
+                {
+                    miSorted.Add(rndList[i], string.Empty);//Lo muestra horrible pero lo ordena y lo muestra sin otra función
+
+                }
+
+
+            }
+
+            foreach (var item in miSorted)
+            {
+                Console.WriteLine($"{item}");
+            }
+
 
 
 
