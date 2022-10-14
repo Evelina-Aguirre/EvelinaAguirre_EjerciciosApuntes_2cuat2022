@@ -5,8 +5,4 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\08Ej04-CentralitaEntidades\08Ej04-CentralitaEntidades.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -64,6 +64,7 @@ namespace _08Ej04_CentralitaEntidades
             switch(tipo)
             {
                 case ETipoLlamada.Local:
+
                     
                     foreach (Llamada item in this.listaDeLlamadas)
                     {
