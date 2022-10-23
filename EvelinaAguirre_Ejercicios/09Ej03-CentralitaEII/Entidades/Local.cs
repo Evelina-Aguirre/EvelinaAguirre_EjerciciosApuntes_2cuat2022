@@ -49,6 +49,11 @@ namespace _08Ej04_CentralitaEntidades
             return obj is Local;
         }
 
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+
         public virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();

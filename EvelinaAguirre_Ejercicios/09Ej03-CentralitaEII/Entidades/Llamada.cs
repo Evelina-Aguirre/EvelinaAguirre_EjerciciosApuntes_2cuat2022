@@ -30,10 +30,6 @@ namespace _08Ej04_CentralitaEntidades
             return !(l1 == l2);
         }
 
-
-        /*El operador == comparará dos llamadas y retornará true si las llamadas
-         * son del mismo tipo (utilizar el método Equals, sobrescrito en las clases 
-         * derivadas) y los números de destino y origen son iguales en ambas llamadas.*/
         protected virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -41,7 +37,6 @@ namespace _08Ej04_CentralitaEntidades
             sb.AppendLine($"Duración: {this.duracion}");
             sb.AppendLine($"Destino: {this.nroDestino}");
             sb.AppendLine($"Origen: {this.nroOrigen}");
-            sb.AppendLine($"Costo: {this.CostoLlamada}");
 
             return sb.ToString();
         }

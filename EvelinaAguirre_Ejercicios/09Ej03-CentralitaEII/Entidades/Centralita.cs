@@ -21,8 +21,6 @@ namespace _08Ej04_CentralitaEntidades
             this.razonSocial = nombreEmpresa;
         }
 
-        /*Las propiedades GananciaPorTotal, GananciaPorLocal y GananciaPorProvincial retornarán el precio 
-         * de lo facturado según el criterio (llamada local, provincial o todas). Dichos valores se calcularán en el método CalcularGanancia.*/
         public List<Llamada> Llamadas
         {
             get
@@ -54,9 +52,6 @@ namespace _08Ej04_CentralitaEntidades
             }
         }
 
-        /*CalcularGanancia será privado. Este método recibe un enumerado TipoLlamada y
-         * retornará el valor de lo recaudado, según el criterio elegido (ganancias por
-         * las llamadas del tipo Local, Provincial o de Todas según corresponda).*/
         private float CalcularGanancia(ETipoLlamada tipo)
         {
             float recaudado=0;
@@ -107,9 +102,7 @@ namespace _08Ej04_CentralitaEntidades
             return recaudado;
         }
 
-        //El método Mostrar expondrá la razón social, la ganancia total,
-        //ganancia por llamados locales y provinciales y el detalle de las llamadas realizadas.
-        public string Mostrar()
+        private string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -126,16 +119,25 @@ namespace _08Ej04_CentralitaEntidades
                 }
                 else
                 {
-                    ((Provincial)item).Mostrar();
+                    ((Provincial)item).ToString();
                 }
             }
 
             return sb.ToString();
         }
 
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
         public void OrdenarLlamadas()
         {
             this.listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+        }
+
+        private void AgregarLlamada(Llamada l1)
+        {
+            this.Llamadas.Add(l1);
         }
 
 

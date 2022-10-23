@@ -56,12 +56,22 @@ namespace _08Ej04_CentralitaEntidades
 
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Provincial;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+
         protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine($"Costo:{this.CostoLlamada}");
-            sb.AppendLine($"FranjaHoraria:{this.franjaHoraria}");
+            sb.AppendLine($"Costo: {this.CostoLlamada}");
+            sb.AppendLine($"Franja Horaria: {this.franjaHoraria}");
 
             return sb.ToString();
 
