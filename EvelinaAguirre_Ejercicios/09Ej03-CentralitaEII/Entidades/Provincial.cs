@@ -10,17 +10,26 @@ namespace _08Ej04_CentralitaEntidades
     {
         protected EFranja franjaHoraria;
 
-        public Provincial(EFranja miFranja, Llamada llamada):base (llamada.Duracion,llamada.NroDestino,llamada.NroOrigen)
+        //public Provincial(EFranja miFranja, Llamada llamada):base (llamada.Duracion,llamada.NroDestino,llamada.NroOrigen)
+        //{
+        //    this.franjaHoraria = miFranja;
+        //}
+        //public Provincial(string nroOrigen, EFranja miFranja, float duracion, string nroDestino) 
+        //    : this(miFranja, new Llamada(duracion, nroDestino, nroOrigen))//🙏
+        //{
+
+        //}
+        public Provincial(string origen, EFranja miFranja, float duracion, string destino) : base(duracion, destino, origen)
         {
             this.franjaHoraria = miFranja;
         }
-        public Provincial(string nroOrigen, EFranja miFranja, float duracion, string nroDestino) 
-            : this(miFranja, new Llamada(duracion, nroDestino, nroOrigen))//🙏
+
+        public Provincial(EFranja miFranja, Llamada llamada) : this(llamada.NroOrigen, miFranja, llamada.Duracion, llamada.NroDestino)
         {
-            
+
         }
 
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
@@ -47,7 +56,7 @@ namespace _08Ej04_CentralitaEntidades
 
         }
 
-        public override string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine(base.Mostrar());

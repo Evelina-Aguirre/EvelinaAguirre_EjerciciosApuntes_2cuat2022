@@ -8,12 +8,12 @@ namespace CentralitaPrueba
         static void Main(string[] args)
         {
             // Mi central
-            Centralita c = new Centralita("Fede Center");
+            Centralita c = new Centralita("Center");
 
             // Mis 4 llamadas
-            Local l1 = new Local(30, "Bernal", "Rosario", 2.65f);
+            Local l1 = new Local("Bernal", 30, "Rosario", 2.65f);
             Provincial l2 = new Provincial("Morón", EFranja.Franja_1, 21, "Bernal");
-            Local l3 = new Local(45, "Lanús", "San Rafael", 1.99f);
+            Local l3 = new Local("Lanús", 45, "San Rafael", 1.99f);
             Provincial l4 = new Provincial(EFranja.Franja_3, l2);
 
             // Las llamadas se irán registrando en la Centralita.

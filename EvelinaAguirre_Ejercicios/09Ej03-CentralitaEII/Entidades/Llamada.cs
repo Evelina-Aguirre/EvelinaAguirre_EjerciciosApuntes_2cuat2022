@@ -16,15 +16,21 @@ namespace _08Ej04_CentralitaEntidades
             this.nroOrigen = nroOrigen;
         }
 
-        public float CostoLlamada;
+        public abstract float CostoLlamada { get; }
         public float Duracion { get => duracion;  }
         public string NroDestino { get => nroDestino;  }
         public string NroOrigen { get => nroOrigen; }
 
         public static bool operator ==(Llamada l1, Llamada l2)
         {
-
+            return (l1.Equals(l2) && l1.NroDestino == l2.NroDestino && l1.NroOrigen == l2.NroOrigen);
         }
+        public static bool operator !=(Llamada l1, Llamada l2)
+        {
+            return !(l1 == l2);
+        }
+
+
         /*El operador == comparará dos llamadas y retornará true si las llamadas
          * son del mismo tipo (utilizar el método Equals, sobrescrito en las clases 
          * derivadas) y los números de destino y origen son iguales en ambas llamadas.*/
@@ -35,6 +41,7 @@ namespace _08Ej04_CentralitaEntidades
             sb.AppendLine($"Duración: {this.duracion}");
             sb.AppendLine($"Destino: {this.nroDestino}");
             sb.AppendLine($"Origen: {this.nroOrigen}");
+            sb.AppendLine($"Costo: {this.CostoLlamada}");
 
             return sb.ToString();
         }

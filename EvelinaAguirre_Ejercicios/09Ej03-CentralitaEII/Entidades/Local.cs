@@ -10,28 +10,28 @@ namespace _08Ej04_CentralitaEntidades
     {
         protected float costo;
 
+        //public Local(float duracion, string nroDestino, string nroOrigen, float costo) 
+        //    : base(new Llamada(duracion, nroDestino,nroOrigen), costo)  //💃
+        //{
+        //}
 
-        public Local(Llamada llamada, float costo):base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
-        {
-            this.costo = costo;
-        }
-        public Local(float duracion, string nroDestino, string nroOrigen, float costo) 
-            : this(new Llamada(duracion, nroDestino,nroOrigen), costo)  //💃
-        {
-        }
-
-        //public Local(string origen, float duracion, string destino, float costo)
-        //    :base(duracion, destino, origen)
+        //public Local(Llamada llamada, float costo):base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
         //{
         //    this.costo = costo;
         //}
+        public Local(Llamada llamada, float costo) : base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
+        {
+            this.costo = costo;
+        }
 
-        //public Local(Llamada llamada, float costo)
-        //    : this(llamada.NroOrigen, llamada.Duracion, llamada.NroDestino, costo)
-        //{
-        //}
+        public Local(string destino, float duracion, string origen, float costo) : base(duracion, destino, origen)
+        {
+            this.costo = costo;
+        }
 
-        public float CostoLlamada
+
+
+        public override float CostoLlamada
         {
             get
             {
@@ -42,6 +42,11 @@ namespace _08Ej04_CentralitaEntidades
         private float CalcularCosto()
         {
             return base.Duracion * this.costo;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Local;
         }
 
         public virtual string Mostrar()
