@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Entidades;
+using System.Collections.Generic;
 using System.Text;
 
 namespace _08Ej04_CentralitaEntidades
@@ -165,6 +166,11 @@ namespace _08Ej04_CentralitaEntidades
             {
                 c.AgregarLlamada(nuevaLlamada);
             }
+            else
+            {
+                throw new CentralitaException("Llamada ya registrada", "Centralita", "Sobrecarga +");
+            }
+
             return c;
         }
 

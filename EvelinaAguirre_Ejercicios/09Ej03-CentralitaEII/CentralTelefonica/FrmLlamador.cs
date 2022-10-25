@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using _08Ej04_CentralitaEntidades;
+using Entidades;
+using System;
 using System.Windows.Forms;
-using _08Ej04_CentralitaEntidades;
 
 /*Agregar los formularios FrmLlamador y FrmMostrar:
 
@@ -38,87 +32,87 @@ namespace CentralTelefonica
         {
             get
             {
-                return this.central;
+                return central;
             }
         }
 
         private void FrmLlamador_Load(object sender, EventArgs e)
         {
             cmbFranja.DataSource = Enum.GetValues(typeof(EFranja));
-            this.txtNroDestino.Text = "";
+            txtNroDestino.Text = "";
         }
 
         private void txtNroDestino_TextChanged(object sender, EventArgs e)
         {
-            if(this.txtNroDestino.Text.StartsWith("#"))
+            if (txtNroDestino.Text.StartsWith("#"))
             {
-                this.cmbFranja.Enabled = true;
+                cmbFranja.Enabled = true;
             }
             else
             {
-                this.cmbFranja.Enabled = false;
-            }    
+                cmbFranja.Enabled = false;
+            }
         }
 
         private void btnUno_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "1";
+            txtNroDestino.Text += "1";
         }
 
         private void btnDos_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "2";
+            txtNroDestino.Text += "2";
         }
 
         private void btnTres_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "3";
+            txtNroDestino.Text += "3";
         }
 
         private void btnCuatro_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text = string.Empty;
-            this.txtNroDestino.Text += "4";
+            txtNroDestino.Text = string.Empty;
+            txtNroDestino.Text += "4";
         }
 
         private void btnCinco_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "5";
+            txtNroDestino.Text += "5";
         }
 
         private void btnSeis_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "6";
+            txtNroDestino.Text += "6";
         }
 
         private void btnSiete_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "7";
+            txtNroDestino.Text += "7";
         }
 
         private void btnOcho_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "8";
+            txtNroDestino.Text += "8";
         }
 
         private void btnNueve_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "9";
+            txtNroDestino.Text += "9";
         }
 
         private void btnAsterisco_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "*";
+            txtNroDestino.Text += "*";
         }
 
         private void btnCero_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "0";
+            txtNroDestino.Text += "0";
         }
 
         private void btnNumeral_Click(object sender, EventArgs e)
         {
-            this.txtNroDestino.Text += "#";
+            txtNroDestino.Text += "#";
         }
 
         private void btnLlamar_Click(object sender, EventArgs e)
@@ -126,11 +120,11 @@ namespace CentralTelefonica
             Random rnd = new Random();
             Llamada llamada;
             EFranja franja = EFranja.Franja_1;
-            
-            if(this.cmbFranja.Enabled)
+
+            if (cmbFranja.Enabled)
             {
                 Enum.TryParse(cmbFranja.SelectedValue.ToString(), out franja);
-                llamada = new Provincial(this.txtNroOrigen.Text, franja, rnd.Next(1, 50), this.txtNroDestino.Text);
+                llamada = new Provincial(txtNroOrigen.Text, franja, rnd.Next(1, 50), txtNroDestino.Text);
 
             }
             else
@@ -138,9 +132,17 @@ namespace CentralTelefonica
                 double min = 0.5;
                 double max = 5.6;
 
-                llamada = new Local(this.txtNroOrigen.Text,rnd.Next(1,50),this.txtNroDestino.Text, (float)(rnd.NextDouble() * (min - max) + min));
+                llamada = new Local(txtNroOrigen.Text, rnd.Next(1, 50), txtNroDestino.Text, (float)(rnd.NextDouble() * (min - max) + min));
             }
-            this.central += llamada;
+
+            try
+            {
+                central += llamada;
+            }
+            catch (CentralitaException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void button14_Click(object sender, EventArgs e)
@@ -152,7 +154,7 @@ namespace CentralTelefonica
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
     }
 }
