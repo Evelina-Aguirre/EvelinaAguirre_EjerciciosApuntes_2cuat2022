@@ -140,6 +140,39 @@ namespace _08Ej04_CentralitaEntidades
             this.Llamadas.Add(l1);
         }
 
+        /*El operador == retornará true si la
+         * centralita contiene la llamada en su lista genérica. Utilizar la sobrecarga del operador == de la clase Llamada.*/
+        public static bool operator ==(Centralita c, Llamada llamada)
+        {
+            bool resultado = false;
+            foreach (Llamada item in c.Llamadas)
+            {
+                if(item == llamada)
+                {
+                    resultado =true;
+                }
+            }
+            return resultado;
+        }
+
+        public static bool operator !=(Centralita c, Llamada llamada)
+        {
+            return !(c == llamada);
+        }
+
+        /*El operador + invocará al método AgregarLlamada sólo
+         * si la llamada no está registrada en la Centralita. Utilizar la sobrecarga del operador == de Centralita.*/
+        public static Centralita operator + (Centralita c, Llamada nuevaLlamada)
+        {
+            foreach ( Llamada item in c.listaDeLlamadas)
+            {
+                if(item != nuevaLlamada)
+                {
+                    c.AgregarLlamada(nuevaLlamada);
+                }
+            }
+            return c;
+        }
 
 
 
