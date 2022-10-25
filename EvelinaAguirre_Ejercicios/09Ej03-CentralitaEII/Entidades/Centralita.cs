@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace _08Ej04_CentralitaEntidades
 {
@@ -16,23 +13,23 @@ namespace _08Ej04_CentralitaEntidades
             listaDeLlamadas = new List<Llamada>();
         }
 
-        public Centralita(string nombreEmpresa):this()
+        public Centralita(string nombreEmpresa) : this()
         {
-            this.razonSocial = nombreEmpresa;
+            razonSocial = nombreEmpresa;
         }
 
         public List<Llamada> Llamadas
         {
             get
             {
-                return this.listaDeLlamadas;
+                return listaDeLlamadas;
             }
         }
         public float GananciasPorLocal
         {
             get
             {
-                return this.CalcularGanancia(ETipoLlamada.Local);
+                return CalcularGanancia(ETipoLlamada.Local);
             }
         }
 
@@ -40,7 +37,7 @@ namespace _08Ej04_CentralitaEntidades
         {
             get
             {
-                return this.CalcularGanancia(ETipoLlamada.Provincial);
+                return CalcularGanancia(ETipoLlamada.Provincial);
             }
         }
 
@@ -48,31 +45,31 @@ namespace _08Ej04_CentralitaEntidades
         {
             get
             {
-                return this.CalcularGanancia(ETipoLlamada.Todas);
+                return CalcularGanancia(ETipoLlamada.Todas);
             }
         }
 
         private float CalcularGanancia(ETipoLlamada tipo)
         {
-            float recaudado=0;
+            float recaudado = 0;
 
-            switch(tipo)
+            switch (tipo)
             {
                 case ETipoLlamada.Local:
 
-                    
-                    foreach (Llamada item in this.listaDeLlamadas)
+
+                    foreach (Llamada item in listaDeLlamadas)
                     {
-                        if(item is Local)
+                        if (item is Local)
                         {
                             recaudado += ((Local)item).CostoLlamada;
                         }
-                        
+
                     }
                     break;
                 case ETipoLlamada.Provincial:
 
-                    foreach (Llamada item in this.listaDeLlamadas)
+                    foreach (Llamada item in listaDeLlamadas)
                     {
                         if (item is Provincial)
                         {
@@ -84,9 +81,9 @@ namespace _08Ej04_CentralitaEntidades
 
                 case ETipoLlamada.Todas:
 
-                    foreach (Llamada item in this.listaDeLlamadas)
+                    foreach (Llamada item in listaDeLlamadas)
                     {
-                        if(item is Local)
+                        if (item is Local)
                         {
                             recaudado += ((Local)item).CostoLlamada;
                         }
@@ -106,14 +103,14 @@ namespace _08Ej04_CentralitaEntidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"Razón Social: {this.razonSocial}");
-            sb.AppendLine($"Ganancia Total: {this.GananciasPorTotal}");
-            sb.AppendLine($"Ganancia llam. Locales:  {this.GananciasPorLocal}");
-            sb.AppendLine($"Ganancia llam. Provinciales: {this.GananciasPorProvincial}");
+            sb.AppendLine($"Razón Social: {razonSocial}");
+            sb.AppendLine($"Ganancia Total: {GananciasPorTotal}");
+            sb.AppendLine($"Ganancia llam. Locales:  {GananciasPorLocal}");
+            sb.AppendLine($"Ganancia llam. Provinciales: {GananciasPorProvincial}");
 
-            foreach (Llamada item in this.listaDeLlamadas)
+            foreach (Llamada item in listaDeLlamadas)
             {
-                if(item is Local)
+                if (item is Local)
                 {
                     ((Local)item).Mostrar();
                 }
@@ -128,16 +125,16 @@ namespace _08Ej04_CentralitaEntidades
 
         public override string ToString()
         {
-            return this.Mostrar();
+            return Mostrar();
         }
         public void OrdenarLlamadas()
         {
-            this.listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
+            listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
         }
 
         private void AgregarLlamada(Llamada l1)
         {
-            this.Llamadas.Add(l1);
+            Llamadas.Add(l1);
         }
 
         /*El operador == retornará true si la
@@ -147,9 +144,9 @@ namespace _08Ej04_CentralitaEntidades
             bool resultado = false;
             foreach (Llamada item in c.Llamadas)
             {
-                if(item == llamada)
+                if (item == llamada)
                 {
-                    resultado =true;
+                    resultado = true;
                 }
             }
             return resultado;
@@ -162,14 +159,11 @@ namespace _08Ej04_CentralitaEntidades
 
         /*El operador + invocará al método AgregarLlamada sólo
          * si la llamada no está registrada en la Centralita. Utilizar la sobrecarga del operador == de Centralita.*/
-        public static Centralita operator + (Centralita c, Llamada nuevaLlamada)
+        public static Centralita operator +(Centralita c, Llamada nuevaLlamada)
         {
-            foreach ( Llamada item in c.listaDeLlamadas)
+            if (c != nuevaLlamada)
             {
-                if(item != nuevaLlamada)
-                {
-                    c.AgregarLlamada(nuevaLlamada);
-                }
+                c.AgregarLlamada(nuevaLlamada);
             }
             return c;
         }
