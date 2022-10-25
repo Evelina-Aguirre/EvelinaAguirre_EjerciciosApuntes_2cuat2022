@@ -31,18 +31,18 @@ namespace CentralTelefonica
         {
             this.txtNroDestino = new System.Windows.Forms.TextBox();
             this.grpPanel = new System.Windows.Forms.GroupBox();
-            this.btnUno = new System.Windows.Forms.Button();
-            this.btnTres = new System.Windows.Forms.Button();
-            this.btnDos = new System.Windows.Forms.Button();
-            this.btnCinco = new System.Windows.Forms.Button();
-            this.btnSeis = new System.Windows.Forms.Button();
-            this.btnCuatro = new System.Windows.Forms.Button();
-            this.btnOcho = new System.Windows.Forms.Button();
-            this.btnNueve = new System.Windows.Forms.Button();
-            this.btnSiete = new System.Windows.Forms.Button();
             this.btnCero = new System.Windows.Forms.Button();
             this.btnNumeral = new System.Windows.Forms.Button();
             this.btnAsterisco = new System.Windows.Forms.Button();
+            this.btnOcho = new System.Windows.Forms.Button();
+            this.btnNueve = new System.Windows.Forms.Button();
+            this.btnSiete = new System.Windows.Forms.Button();
+            this.btnCinco = new System.Windows.Forms.Button();
+            this.btnSeis = new System.Windows.Forms.Button();
+            this.btnCuatro = new System.Windows.Forms.Button();
+            this.btnDos = new System.Windows.Forms.Button();
+            this.btnTres = new System.Windows.Forms.Button();
+            this.btnUno = new System.Windows.Forms.Button();
             this.btnLlamar = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.txtNroOrigen = new System.Windows.Forms.TextBox();
@@ -83,65 +83,35 @@ namespace CentralTelefonica
             this.grpPanel.TabStop = false;
             this.grpPanel.Text = "Panel";
             // 
-            // btnUno
+            // btnCero
             // 
-            this.btnUno.Location = new System.Drawing.Point(11, 23);
-            this.btnUno.Name = "btnUno";
-            this.btnUno.Size = new System.Drawing.Size(54, 54);
-            this.btnUno.TabIndex = 0;
-            this.btnUno.Text = "1";
-            this.btnUno.UseVisualStyleBackColor = true;
-            this.btnUno.Click += new System.EventHandler(this.btnUno_Click);
+            this.btnCero.Location = new System.Drawing.Point(59, 149);
+            this.btnCero.Name = "btnCero";
+            this.btnCero.Size = new System.Drawing.Size(54, 54);
+            this.btnCero.TabIndex = 11;
+            this.btnCero.Text = "0";
+            this.btnCero.UseVisualStyleBackColor = true;
+            this.btnCero.Click += new System.EventHandler(this.btnCero_Click);
             // 
-            // btnTres
+            // btnNumeral
             // 
-            this.btnTres.Location = new System.Drawing.Point(109, 23);
-            this.btnTres.Name = "btnTres";
-            this.btnTres.Size = new System.Drawing.Size(54, 54);
-            this.btnTres.TabIndex = 1;
-            this.btnTres.Text = "3";
-            this.btnTres.UseVisualStyleBackColor = true;
-            this.btnTres.Click += new System.EventHandler(this.btnTres_Click);
+            this.btnNumeral.Location = new System.Drawing.Point(109, 149);
+            this.btnNumeral.Name = "btnNumeral";
+            this.btnNumeral.Size = new System.Drawing.Size(54, 54);
+            this.btnNumeral.TabIndex = 10;
+            this.btnNumeral.Text = "#";
+            this.btnNumeral.UseVisualStyleBackColor = true;
+            this.btnNumeral.Click += new System.EventHandler(this.btnNumeral_Click);
             // 
-            // btnDos
+            // btnAsterisco
             // 
-            this.btnDos.Location = new System.Drawing.Point(59, 23);
-            this.btnDos.Name = "btnDos";
-            this.btnDos.Size = new System.Drawing.Size(54, 54);
-            this.btnDos.TabIndex = 2;
-            this.btnDos.Text = "2";
-            this.btnDos.UseVisualStyleBackColor = true;
-            this.btnDos.Click += new System.EventHandler(this.btnDos_Click);
-            // 
-            // btnCinco
-            // 
-            this.btnCinco.Location = new System.Drawing.Point(59, 65);
-            this.btnCinco.Name = "btnCinco";
-            this.btnCinco.Size = new System.Drawing.Size(54, 54);
-            this.btnCinco.TabIndex = 5;
-            this.btnCinco.Text = "5";
-            this.btnCinco.UseVisualStyleBackColor = true;
-            this.btnCinco.Click += new System.EventHandler(this.btnCinco_Click);
-            // 
-            // btnSeis
-            // 
-            this.btnSeis.Location = new System.Drawing.Point(109, 65);
-            this.btnSeis.Name = "btnSeis";
-            this.btnSeis.Size = new System.Drawing.Size(54, 54);
-            this.btnSeis.TabIndex = 4;
-            this.btnSeis.Text = "6";
-            this.btnSeis.UseVisualStyleBackColor = true;
-            this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
-            // 
-            // btnCuatro
-            // 
-            this.btnCuatro.Location = new System.Drawing.Point(11, 65);
-            this.btnCuatro.Name = "btnCuatro";
-            this.btnCuatro.Size = new System.Drawing.Size(54, 54);
-            this.btnCuatro.TabIndex = 3;
-            this.btnCuatro.Text = "4";
-            this.btnCuatro.UseVisualStyleBackColor = true;
-            this.btnCuatro.Click += new System.EventHandler(this.btnCuatro_Click);
+            this.btnAsterisco.Location = new System.Drawing.Point(11, 149);
+            this.btnAsterisco.Name = "btnAsterisco";
+            this.btnAsterisco.Size = new System.Drawing.Size(54, 54);
+            this.btnAsterisco.TabIndex = 9;
+            this.btnAsterisco.Text = "*";
+            this.btnAsterisco.UseVisualStyleBackColor = true;
+            this.btnAsterisco.Click += new System.EventHandler(this.btnAsterisco_Click);
             // 
             // btnOcho
             // 
@@ -173,35 +143,65 @@ namespace CentralTelefonica
             this.btnSiete.UseVisualStyleBackColor = true;
             this.btnSiete.Click += new System.EventHandler(this.btnSiete_Click);
             // 
-            // btnCero
+            // btnCinco
             // 
-            this.btnCero.Location = new System.Drawing.Point(59, 149);
-            this.btnCero.Name = "btnCero";
-            this.btnCero.Size = new System.Drawing.Size(54, 54);
-            this.btnCero.TabIndex = 11;
-            this.btnCero.Text = "0";
-            this.btnCero.UseVisualStyleBackColor = true;
-            this.btnCero.Click += new System.EventHandler(this.btnCero_Click);
+            this.btnCinco.Location = new System.Drawing.Point(59, 65);
+            this.btnCinco.Name = "btnCinco";
+            this.btnCinco.Size = new System.Drawing.Size(54, 54);
+            this.btnCinco.TabIndex = 5;
+            this.btnCinco.Text = "5";
+            this.btnCinco.UseVisualStyleBackColor = true;
+            this.btnCinco.Click += new System.EventHandler(this.btnCinco_Click);
             // 
-            // btnNumeral
+            // btnSeis
             // 
-            this.btnNumeral.Location = new System.Drawing.Point(109, 149);
-            this.btnNumeral.Name = "btnNumeral";
-            this.btnNumeral.Size = new System.Drawing.Size(54, 54);
-            this.btnNumeral.TabIndex = 10;
-            this.btnNumeral.Text = "#";
-            this.btnNumeral.UseVisualStyleBackColor = true;
-            this.btnNumeral.Click += new System.EventHandler(this.btnNumeral_Click);
+            this.btnSeis.Location = new System.Drawing.Point(109, 65);
+            this.btnSeis.Name = "btnSeis";
+            this.btnSeis.Size = new System.Drawing.Size(54, 54);
+            this.btnSeis.TabIndex = 4;
+            this.btnSeis.Text = "6";
+            this.btnSeis.UseVisualStyleBackColor = true;
+            this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
             // 
-            // btnAsterisco
+            // btnCuatro
             // 
-            this.btnAsterisco.Location = new System.Drawing.Point(11, 149);
-            this.btnAsterisco.Name = "btnAsterisco";
-            this.btnAsterisco.Size = new System.Drawing.Size(54, 54);
-            this.btnAsterisco.TabIndex = 9;
-            this.btnAsterisco.Text = "*";
-            this.btnAsterisco.UseVisualStyleBackColor = true;
-            this.btnAsterisco.Click += new System.EventHandler(this.btnAsterisco_Click);
+            this.btnCuatro.Location = new System.Drawing.Point(11, 65);
+            this.btnCuatro.Name = "btnCuatro";
+            this.btnCuatro.Size = new System.Drawing.Size(54, 54);
+            this.btnCuatro.TabIndex = 3;
+            this.btnCuatro.Text = "4";
+            this.btnCuatro.UseVisualStyleBackColor = true;
+            this.btnCuatro.Click += new System.EventHandler(this.btnCuatro_Click);
+            // 
+            // btnDos
+            // 
+            this.btnDos.Location = new System.Drawing.Point(59, 23);
+            this.btnDos.Name = "btnDos";
+            this.btnDos.Size = new System.Drawing.Size(54, 54);
+            this.btnDos.TabIndex = 2;
+            this.btnDos.Text = "2";
+            this.btnDos.UseVisualStyleBackColor = true;
+            this.btnDos.Click += new System.EventHandler(this.btnDos_Click);
+            // 
+            // btnTres
+            // 
+            this.btnTres.Location = new System.Drawing.Point(109, 23);
+            this.btnTres.Name = "btnTres";
+            this.btnTres.Size = new System.Drawing.Size(54, 54);
+            this.btnTres.TabIndex = 1;
+            this.btnTres.Text = "3";
+            this.btnTres.UseVisualStyleBackColor = true;
+            this.btnTres.Click += new System.EventHandler(this.btnTres_Click);
+            // 
+            // btnUno
+            // 
+            this.btnUno.Location = new System.Drawing.Point(11, 23);
+            this.btnUno.Name = "btnUno";
+            this.btnUno.Size = new System.Drawing.Size(54, 54);
+            this.btnUno.TabIndex = 0;
+            this.btnUno.Text = "1";
+            this.btnUno.UseVisualStyleBackColor = true;
+            this.btnUno.Click += new System.EventHandler(this.btnUno_Click);
             // 
             // btnLlamar
             // 
@@ -240,6 +240,7 @@ namespace CentralTelefonica
             this.btnSalir.TabIndex = 15;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // cmbFranja
             // 

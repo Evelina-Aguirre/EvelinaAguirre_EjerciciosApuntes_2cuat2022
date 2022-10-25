@@ -44,8 +44,8 @@ namespace CentralTelefonica
 
         private void FrmLlamador_Load(object sender, EventArgs e)
         {
-            // Carga
             cmbFranja.DataSource = Enum.GetValues(typeof(EFranja));
+            this.txtNroDestino.Text = "";
         }
 
         private void txtNroDestino_TextChanged(object sender, EventArgs e)
@@ -77,6 +77,7 @@ namespace CentralTelefonica
 
         private void btnCuatro_Click(object sender, EventArgs e)
         {
+            this.txtNroDestino.Text = string.Empty;
             this.txtNroDestino.Text += "4";
         }
 
@@ -147,6 +148,11 @@ namespace CentralTelefonica
             txtNroDestino.Clear();
             txtNroOrigen.Clear();
             cmbFranja.Text = string.Empty;
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
